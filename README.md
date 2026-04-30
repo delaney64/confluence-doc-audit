@@ -30,7 +30,7 @@ pip install -r requirements.txt
 Open `confluence_audit.py` and update the config block at the top:
 
 ```python
-EMAIL     = "your-email@usac.org"
+EMAIL     = "your-email@email.org"
 API_TOKEN = "your-api-token-here"
 ```
 
