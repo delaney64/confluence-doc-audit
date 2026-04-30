@@ -1,0 +1,18 @@
+# Output files
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Secrets
+.env
+config.local.py
+
+# OS
+.DS_Store
+Thumbs.db
