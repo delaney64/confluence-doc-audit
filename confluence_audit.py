@@ -3,9 +3,9 @@ import csv
 from datetime import datetime, timezone
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
-EMAIL     = "your-email@usac.org"
+EMAIL     = "your-email@.org"
 API_TOKEN = "your-api-token-here"
-BASE_URL  = "https://usac.atlassian.net/wiki/rest/api/content"
+BASE_URL  = "atlassian.net/wiki/rest/api/content"
 OUTPUT    = "confluence_audit_results.csv"
 
 # ── PAGES ─────────────────────────────────────────────────────────────────────
