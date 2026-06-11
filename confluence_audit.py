@@ -87,7 +87,7 @@ def main():
                 "Updated By":        updated_by,
                 "Days Since Update": days_ago,
                 "Status":            status,
-                "URL":               f"https://usac.atlassian.net/wiki/spaces/ITSEC/pages/{page['id']}"
+                "URL":               f"https://atlassian.net/wiki/spaces/ITSEC/pages/{page['id']}"
             })
 
         except requests.HTTPError as e:
@@ -101,7 +101,7 @@ def main():
                 "Updated By":        "",
                 "Days Since Update": "",
                 "Status":            f"HTTP {e.response.status_code}",
-                "URL":               f"https://usac.atlassian.net/wiki/spaces/ITSEC/pages/{page['id']}"
+                "URL":               f"https://.atlassian.net/wiki/spaces/ITSEC/pages/{page['id']}"
             })
 
     # Write CSV
